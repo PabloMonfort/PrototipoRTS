@@ -4,7 +4,6 @@ using System.Linq;
 using TMPro;
 using Unity.AI.Navigation;
 using UnityEngine;
-using static TerrainTool;
 [System.Serializable]
 public enum TiposDeConstruccion
 {

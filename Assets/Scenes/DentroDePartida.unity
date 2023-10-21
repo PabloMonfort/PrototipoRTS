@@ -15616,7 +15616,7 @@ GameObject:
   - component: {fileID: 1934720790}
   - component: {fileID: 1934720789}
   - component: {fileID: 1934720788}
-  - component: {fileID: 1934720787}
+  - component: {fileID: 1934720791}
   m_Layer: 6
   m_Name: Terreno
   m_TagString: Suelo
@@ -15624,23 +15624,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
   m_IsActive: 1
---- !u!114 &1934720787
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1934720786}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a0e245ce9acc3c54e838781f051e1aa3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  brushWidth: 2
-  brushHeight: 2
-  strength: 0
-  modificationAction: 2
-  _sampledHeight: 0
 --- !u!154 &1934720788
 TerrainCollider:
   m_ObjectHideFlags: 0
@@ -15715,6 +15698,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1934720791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1934720786}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdf15f663118d3148983da757b5a7116, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1942960909
 GameObject:
   m_ObjectHideFlags: 0
